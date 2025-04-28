@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA - Homepage Replice</title>
+    <style>
+        body {
+            font-family: Arial,sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: blue;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar .logo {
+            font-size: 24px;
+            display: flex;
+        }
+        .navbar ul {
+            list-style: none;
+            display: flex;
+        }
+        .navbar ul li {
+            margin-left: 200px;
+        }
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .hero {
+            background-image: url('https://via.placeholder.com/1500x600?text=News+Image');
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 60px;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 20px;
+        }
+        .btn-hero {
+            background-color: aqua;
+            color: black;
+            padding: 10px 20px;
+            border: non;
+            font-size: 18px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .latest-news {
+            padding: 50px 20px;
+            background-color: orangered;
+            text-decoration: center;
+        }
+        .latest-news h2 {
+            font-size: 30px;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .news-item {
+            width: 30%;
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .news-item img {
+            width: 100%;
+            height: auto;
+        }.news-item h3 {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        .footer p {
+            margin: 5px;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">NASA</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Missionns</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">spaceeraft</a></li>
+            <li><a href="#">Research</a></li>
+        </ul>
+    </div>
+
+    <div class="hero">
+        <h1>Explore the Universe</h1>
+        <p>Join us in our mission to explore the unknown and uravel the mysteries of space.</p>
+        <button class="btn-hero">Learn More</button>
+    </div>
+
+    <div class="latest-news">
+        <h2>Latest News</h2>
+        <div class="news-itens">
+            <div class="news-item">
+                <img src="https://via.placeholder.com/350x200?text=News+Image" alt="News Image">
+                <h3>NASA Discovers New Explanet</h3>
+                <p>Scientists have discoversed a new exoplanet in the habitable zone of its star.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>&sopy: 2023 NASA. All rights reserved.</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+    </div>
+    
+</body>
+</html>
